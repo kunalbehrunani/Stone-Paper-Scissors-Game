@@ -7,4 +7,4 @@ Computer throws an outcome randomly while user gets to choose their input.
 
 Technologies used - HTML, CSS, Javascript
 
-
+![](DisplayUI.PNG)
