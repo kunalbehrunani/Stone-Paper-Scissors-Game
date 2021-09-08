@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SPS Battle Ground</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>STONE PAPER SCISSORS</h1>
+            <h2>WELCOME TO THE BATTLEGROUND</h2>
+        </header>
+        <main>
+            <table class="score-board">
+                <thead>
+                    <tr>
+                        <th colspan="2">SCORE BOARD</th>
+                    </tr>
+                    <tr>
+                        <th>Computer</th>
+                        <th>User</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="computer-score">0</td>
+                        <td id="user-score">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="round-number">
+                <h3>ROUND <span id="round-number">1</span></h3>
+            </div>
+
+            <div class="battle-ground">
+                <div class="computer-side">
+                   <h4>Computer</h4>
+                </div><div class="user-side">
+                    <h4>User</h4>
+                </div>
+                <div class="score-block" >
+                    <div class="score-block-user">
+                        <div class="options" >
+                            <input type="radio" id="rock" name="user-input" value="rock" required>ROCK<br>
+                            <input type="radio" id="paper" name="user-input" value="paper" required>PAPER<br>
+                            <input type="radio" id="scissors" name="user-input" value="scissors" required>SCISSORS<br>
+                        </div>
+                    </div>
+                    <div class="score-block-computer">
+                        <p id="show-computer-choice">?</p>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <input type="button" name="next-round" value="next-round" id="next-round-button">
+            <input type="button" name="submit-user-input" value="submit" id="submit-results">
+            <script src="./script.js"></script>
+
+        </footer>
+    </body>
+</html>

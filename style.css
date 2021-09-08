@@ -1,0 +1,115 @@
+
+
+body{
+    background-color: ivory;
+}
+
+header{
+    color: rgba(15, 47, 87, 0.972);
+    text-align: center;
+}
+
+table{
+    margin: 0px auto;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+th,td{
+    padding: 5px 25px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+.round-number h3{
+    font-size: 30px;
+    border-top:4px solid rgba(15, 47, 87, 0.972);
+    border-bottom:4px solid rgba(15, 47, 87, 0.972);
+    width: 150px;
+    text-align: center;
+    margin: 30px auto;
+    opacity: 0.8;
+}
+
+
+
+.battle-ground{
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    height: 250px;
+    text-align: center;
+}
+
+.computer-side{
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    margin: 0px auto;
+    border-right: 2px solid black;
+}
+
+.user-side{
+    display: inline-block;
+    height: 250px;
+    border-left: 2px solid black;
+    width: 200px;
+    margin: 0px auto;
+}
+
+.computer-side h4{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;;
+    width: 80%;
+    text-align:center;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.user-side h4{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;;
+    width: 80%;
+    text-align:center;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.score-block{
+    width:400px;
+    height: 200px;
+    position: relative;
+    margin: 0px auto;
+    bottom: 200px;
+    padding: 0px;
+}
+
+.score-block-computer{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    position: absolute;
+    padding: 0px;
+    left: 20px;
+}
+
+.score-block-user{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    position: absolute;
+    padding: 0px;
+    right: 20px;
+}
+
+.options {
+    padding: 20px;
+    text-align: left;
+}
+
+.score-block-computer p{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
